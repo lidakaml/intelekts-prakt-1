@@ -109,6 +109,7 @@ function computerMove() {
 		messageElem.textContent = 'Tu zaudēji! :(';
 		startBtn.style.display = 'none';
 		restartBtn.style.display = 'block';
+		optionsElem.style.display = 'block';
 		return;
 	}
 
@@ -152,6 +153,7 @@ function playerMove(selectedMove) {
         }
 		startBtn.style.display = 'none';
 		restartBtn.style.display = 'block';
+		optionsElem.style.display = 'block';
 		return;
 	}
 
