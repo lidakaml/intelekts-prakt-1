@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-top: 30px;
+}
+
+#game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.board {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.square {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 30px;
+	margin: 5px;
+}
+
+.number {
+	font-size: 64px;
+	text-align: center;
+}
+
+.options {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+#message {
+	margin-top: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #f00;
+}
